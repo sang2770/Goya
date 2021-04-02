@@ -55,6 +55,9 @@ html{
         transform: translateX(-110%);
     }
 }
+.toLeft{
+    animation: toleft 0.4s forwards;
+}
 @keyframes toright{
     0%{
         opacity: 1;
@@ -65,16 +68,23 @@ html{
         transform: translateX(100%);
     }
 }
+.toRight{
+    animation: toright 0.4s forwards;
+}
 @keyframes leftToright{
     0%{
         opacity: 0.4;
-        transform: translateX(-10px);
+        transform: translateX(-100%);
     }
     100%{
         opacity: 1;
         transform: translateX(0px);
     }
 }
+.leftToright{
+    animation: leftToright 0.4s forwards;
+}
+
 @keyframes rightToleft{
     0%{
         opacity: 0.4;
@@ -84,6 +94,9 @@ html{
         opacity: 1;
         transform: translateX(0%);
     }
+}
+.rightToleft{
+    animation: rightToleft 0.4s forwards;
 }
 @keyframes Hien{
     0%{

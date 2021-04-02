@@ -184,7 +184,7 @@ header{
     width: 101%;
     margin: auto;
     content: "";
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #282828;
     position: absolute;
     top:130%;
@@ -202,7 +202,7 @@ header{
 }
 .header__menu-item-l:hover > .bar-title .bar-title_heading::after,
 .header__minimenu-item:hover> a::after,
-.header__menu .header__menu-item-l:hover .eader__menu-submenu a::after  {
+.header__menu .header__menu-item-l:hover > a::after  {
     display: block;
 }
 .enable .arrow-bar,
@@ -413,7 +413,6 @@ header{
     line-height: 40px;
 }
 .header_submenu_bar .header__menu-item-l a.bar-title {
-    
     margin-bottom: 10px;
     font-size: 1.84rem;
     color: rgb(68, 68, 68);
@@ -500,14 +499,41 @@ header{
     font-weight: 400;
 }
 /* banner */
-.banner{
-    /* padding-top: 50%; */
+.banner_arrow_left{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    font-size: 1.6rem;
+    z-index: 4;
+    color: rgb(0 0 0 / 60%);
+}
+.banner_arrow_right{
+    position: absolute;
+    top: 47%;
+    right: 5%;
+    font-size: 1.6rem;
+    z-index: 4;
+    color: rgb(0 0 0 / 60%);
+}
+.banner_list{
     width: 100%;
     height: 90vh;
-    background: url(img/curly_hair_girl-1.jpg) center / cover no-repeat;
     position: relative;
-    /* top: 0px;
-    left: 0; */
+    overflow: hidden;
+}
+.banner_active{
+    display: block  !important;
+}
+.banner{
+    /* padding-top: 50%; */
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    background: url(img/curly_hair_girl-1.jpg) center / cover no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
 }
 .banner_tittle{
     position: absolute;
