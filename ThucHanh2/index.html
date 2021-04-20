@@ -5,18 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="base.css" />
         <link rel="stylesheet" href="css.css" />
         <!-- <link rel="stylesheet" href="../Reset css/min.css"> -->
         <link rel="stylesheet" href="Grid.css">
         <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
-        <!-- <link rel="stylesheet" href="../../fontawesome-free-5.15.2-web/css/all.min.css"> -->
         <link rel="stylesheet" href="../../Tự học/animate/animate.css">
         <script src="../../Tự học/WOW-master/dist/wow.min.js"></script>
         <script>
             new WOW().init();
             </script>
+        <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.core.min.css">
+        <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.theme.min.css">
+        <link rel="stylesheet" href="base.css" />
         <link rel="stylesheet" href="responsive.css">
+
+
     </head>
     <body >
         <header>
@@ -696,7 +699,7 @@
                 </div>
             </div>
             <div class="banner" style="background: url(img/curly_hair_white-1.webp) center / cover no-repeat;">
-                <div class="banner_tittle">
+                <div class="banner_tittle" style="left:52%; top:45%">
                     <div class="banner__even">
                         <a href="" class="btn_even">%0% OFF</a>
                     </div>
@@ -722,7 +725,7 @@
                 </div>
             </div>
         </div>
-        <div class="section one animate__backInUp animate__animated wow">
+        <div class="section one animate__bounceIn animate__animated wow">
             <div class="grid wide">
                 <div class="row">
                     <div class="col l-4 m-12 c-12 custom">
@@ -856,21 +859,56 @@
             </div>
         </div>
         <div class="section three">
-            <div class="section-heading">
-                Testimonials
-            </div>
-            <div class="section-slide">
-                <div class="section-slide-content">
-                    Pok pok flannel drinking vinegar, succulents lumbersexual XOXO artisan. Succulents tousled drinking vinegar, cardigan.
+            <div class="glide">
+                <div data-glide-el="track" class="glide__track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="section-heading">
+                            Testimonials
+                        </div>
+                        <div class="section-slide">
+                            <div class="section-slide-content">
+                                Pok pok flannel drinking vinegar, succulents lumbersexual XOXO artisan. Succulents tousled drinking vinegar, cardigan.
+                            </div>
+                            <div class="section-slide-author">
+                                <div class="section-slide-img"></div>
+                                <div class="section-slide-inf">
+                                    Calvin Reeves
+                                    <span>Actor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="section-heading">
+                            Testimonials
+                        </div>
+                        <div class="section-slide">
+                            <div class="section-slide-content">
+                                Pok pok flannel drinking vinegar, succulents lumbersexual XOXO artisan. Succulents tousled drinking vinegar, cardigan.
+                            </div>
+                            <div class="section-slide-author">
+                                <div class="section-slide-img"></div>
+                                <div class="section-slide-inf">
+                                    Calvin Reeves
+                                    <span>Actor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li class="glide__slide"><img src="./curly_hair_girl-1.jpg" alt=""></li> -->
+                  </ul>
                 </div>
-                <div class="section-slide-author">
-                    <div class="section-slide-img"></div>
-                    <div class="section-slide-inf">
-                        Calvin Reeves
-                        <span>Actor</span>
-                    </div>
-                </div>
-            </div>
+                <!-- <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><<</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">>></button>
+                  </div> -->
+                  <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                  </div>
+              </div>
+            
         </div>
         <div class="section four animate__backInUp animate__animated wow">
             <div class="section-heading">
@@ -881,7 +919,7 @@
             </div>
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-3 c-6 m-4  product-item">
+                    <div class="col l-3 c-6 m-4  mt-8 product-item">
                         <div class="product-item-img">
                             <ul class="product-icon">
                                 <li class="product-icon-item enable-icon">
@@ -913,7 +951,7 @@
                         </div>
                         <div class="product-item-label">Cashmere Tank + Bag <span>$39.00– $98.00</span></div>
                     </div>
-                    <div class="col l-3 c-6 m-4 product-item">
+                    <div class="col l-3 c-6 m-4 mt-8 product-item">
                         <div class="product-item-img">
                             <ul class="product-icon">
                                 <li class="product-icon-item enable-icon">
@@ -945,7 +983,7 @@
                         </div>
                         <div class="product-item-label">Micro Form Bag <span>$98.00</span></div>
                     </div>
-                    <div class="col l-3 c-6 m-4 product-item">
+                    <div class="col l-3 c-6 m-4 mt-8 product-item">
                         <div class="product-item-img">
                             <ul class="product-icon">
                                 <li class="product-icon-item enable-icon">
@@ -977,7 +1015,7 @@
                         </div>
                         <div class="product-item-label">Cashmere Tank<span>$39.00</span></div>
                     </div>
-                    <div class="col l-3 c-6 m-4 product-item">
+                    <div class="col l-3 c-6 m-4 mt-8 product-item">
                         <div class="product-item-img">
                             <ul class="product-icon">
                                 <li class="product-icon-item enable-icon">
@@ -1118,5 +1156,18 @@
         </div>
         <script src="js.js"></script>
         <script src="slider.js"></script>
+        <script src="../glide-3.4.1/dist/glide.min.js"></script>
+        <script>
+            new Glide('.glide',{
+                // type: 'slider',
+                type:'carousel',
+                startAt: 0,
+                // perView: 3,   
+                autoplay: 5000,
+                // rewind:false,
+                animationDuration:800,
+                animationTimingFunc:"linear"
+            }).mount();
+        </script>
     </body>
 </html>

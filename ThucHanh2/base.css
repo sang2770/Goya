@@ -129,3 +129,12 @@ html{
         transform: translateX(100%);
     }
 }
+
+/* override */
+.glide{
+    width: 50vw !important;
+    margin: auto;
+}
+.glide__bullets{
+    bottom: -6em ;
+}
